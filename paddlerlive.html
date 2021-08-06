@@ -1,0 +1,31 @@
+<head>
+  <title>PaddlerGames Live Follower Count</title>
+  <style>
+    
+  </style>
+</head>
+<!-- Sets the title and configures the CSS Style -->
+
+<body>
+  <center>
+    <br>
+    <br>
+    <br>
+    <h3>PaddlerGames currently has :</h3>
+    <h1>Loading…</h1>
+    <h3>Followers</h3>
+  </center>
+  <!-- Creates the text -->
+  
+  <script>
+    var user = "PaddlerGames";
+fetch(`https://scratchdb.lefty.one/v2/user/info/${user}`).then(res => res.json()).then(data => {
+    console.log(data["followers"]);
+    document.getElementById("followers").innerHTML = data["followers"];
+})
+  </script>
+  <!-- Retrives the follower count from ScratchDB -->
+  
+</body>
+
+<!-- hai -->
