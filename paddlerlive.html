@@ -19,10 +19,10 @@
   
   <script>
     var user = "PaddlerGames";
-fetch(`https://scratchdb.lefty.one/v2/user/info/${user}`).then(res => res.json()).then(data => {
-    console.log(data["followers"]);
-    document.getElementById("followers").innerHTML = data["followers"];
-})
+    fetch(`https://scratchdb.lefty.one/v2/user/info/${user}`).then(res => res.json()).then(data => {
+      console.log(data["followers"]);
+      document.getElementById("followers").innerHTML = data["followers"];
+    })
   </script>
   <!-- Retrives the follower count from ScratchDB -->
   
