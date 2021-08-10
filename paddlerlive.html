@@ -8,12 +8,23 @@
 
 <body>
   <center>
-    <br>
-    <br>
-    <br>
+    <br> <br> <br>
+
     <h3>PaddlerGames currently has :</h3>
     <h1 id="followers">Loading…</h1>
-    <h3>Followers</h3>
+    <h3>Followers</h3> <br>
+    <h3>#107 Globally</h3>
+
+    <br> <br>
+
+    <h3>Currently Up Against :</h3>
+
+    <br> <br>
+
+    <h3>ScratchDesignStudio</h3>
+    <h1 id="against">Loading...</h1>
+    <h3>Followers</h3> <br>
+    <h3>#106 Globally</h3>
   </center>
   <!-- Creates the text -->
   
@@ -22,6 +33,12 @@
     fetch(`https://scratchdb.lefty.one/v2/user/info/${user}`).then(res => res.json()).then(data => {
       console.log(data["followers"]);
       document.getElementById("followers").innerHTML = data["followers"];
+    })
+    
+    var upagainst = "ScratchDesignStudio";
+    fetch(`https://scratchdb.lefty.one/v2/user/info/${upagainst}`).then(res => res.json()).then(data => {
+      console.log(data["followers"]);
+      document.getElementById("against").innerHTML = data["followers"];
     })
   </script>
   <!-- Retrives the follower count from ScratchDB -->
