@@ -1,3 +1,5 @@
+<style> @font-face { font-family: chirp; src: url(gt-america.ttf); } * { font-family: chirp; } </style>
+
 MIT License
 
 Copyright (c) 2021 KornRT2018 Productions
