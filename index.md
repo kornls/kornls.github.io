@@ -17,7 +17,7 @@
   
   @font-face {
     font-family: font;
-    src: url(kornrt2018.github.io/gt-america.ttf);
+    src: url(gt-america.ttf);
   }
   
   * {
