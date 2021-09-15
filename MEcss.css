@@ -1,0 +1,28 @@
+/* MEcss 1.0 by KornRT2018 */
+
+
+
+  /* Light mode */
+  @media (prefers-color-scheme: light) {
+      body {
+          background-color: white;
+          color: black;
+      }
+  }
+  
+  /* Dark mode */
+  @media (prefers-color-scheme: dark) {
+      body {
+          background-color: black;
+          color: white;
+      }
+  }
+  
+  @font-face {
+    font-family: font;
+    src: url(kornrt2018.github.io/gt-america.ttf);
+  }
+  
+  * {
+   font-family: font;
+  }
