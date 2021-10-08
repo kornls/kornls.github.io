@@ -8,7 +8,7 @@ Total Viewers : [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?ur
 
 ### My Projects
 **[PaddlerLive](/paddlerlive) - Live follower count for PaddlerGames** <br>
-**[Larry Stickmen (Under Development](https://larrystickmen.github.io) - A fun game created in Apple's Keynote.** <br>
+**[Larry Stickmen (Under Development)](https://larrystickmen.github.io) - A fun game created in Apple's Keynote.** <br>
 **[View my sponsors!](/sponsors) - List of KornRT2018 sponsors and how to be one** <br>
 
 
