@@ -1,4 +1,4 @@
-# kornrt2018.tk
+# kornrt2018.github.io
 Welcome to the Official KornRT2018 Website!
 
 <br>
