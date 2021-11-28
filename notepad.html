@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>HTML textarea Tag</title>
+      <title>Online Notepad</title>
    </head>
 
    <body>
-      <form action = "/cgi-bin/hello_get.cgi" method = "get">
-         What improvements you want in College?
-         <br>
-         <textarea rows = "5" cols = "60" name = "description">
+      <h1>Online Notepad <sub>Beta</sub></h1>
+      <textarea rows = "20" cols = "60" name = "notepad" id = "notepad">
             Enter details here...
          </textarea><br>
-         <input type = "submit" value = "submit" />
-      </form>
+      <button onclick="save(document.getElementById(notepad).innerHTML)">Save</button>
+      <script>
+         function save(text) {
+            localStorage.setItem("notes", text)
+         }
+      </script>
    </body>
 </html>
