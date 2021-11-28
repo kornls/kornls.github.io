@@ -7,10 +7,12 @@
    <body>
       <h3>Online Notepad</h3> <sub>Beta</sub><br>
       <textarea rows = "20" cols = "60" name = "notepad" id = "notepad">
-            Enter details here...
+            
          </textarea><br>
       <button onclick="save(document.getElementById(notepad).innerHTML)">Save</button>
       <script>
+         document.getElementById(notepad).innerHTML = localStorage.getItem("notes")
+         
          function save(text) {
             localStorage.setItem("notes", text)
          }
