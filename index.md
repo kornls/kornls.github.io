@@ -5,7 +5,7 @@ Total Viewers : [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?ur
 
 <br>
 
-**I'm making blog posts so check back later**
+**I'm doing nothing so check back later**
 
 
-*More coming soon...*
+*My channel : [Click](https://youtube.com/kornls)*
