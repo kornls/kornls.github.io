@@ -5,7 +5,6 @@ Total Viewers : [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?ur
 
 <br>
 
-**I'm doing nothing so check back later**
+My channel : [Click](https://youtube.com/kornls)
 
-
-*My channel : [Click](https://youtube.com/kornls)*
+There are a bunch of other pages hidden in this website but they're all useless so I won't put it here
