@@ -7,8 +7,14 @@
 
   <form>
     <input type="text" maxlength="32" placeholder="Search using GoogGoog..."></input>
-    <button onclick="location.href = ('https://kornls.github.io/googgoog/search.html');">Go</button>
+    <button id="search">Go</button>
   </form>
+  
+  <script type="text/javascript">
+    document.getElementById("search").onclick = function () {
+        location.href = "kornls.github.io/googgoog/search.html";
+    };
+  </script>
 
   <br>
 
