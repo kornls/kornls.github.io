@@ -1,9 +1,9 @@
 <style> @font-face { font-family: font; src: url("https://kornls.github.io/comic_sans.TTF"); } * { font-family: font; } </style>
 
-<h1>Satera's Life Countdown</h1>
+<h1>Satera's Lifespan Countdown</h1>
 
 <!-- Display the countdown timer in an element -->
-<h2 id="countdown"></h2>
+<h2 id="countdown">Loading...</h2>
 
 <script>
 // Set the date we're counting down to
@@ -27,13 +27,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = years + " Years " + months + "Months" + days + " Days " + hours + " Hours "
+  document.getElementById("countdown").innerHTML = years + " Years " + months + "Months" + days + " Days " + hours + " Hours "
   + minutes + " Minutes " + seconds + " Seconds ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "RIP";
+    document.getElementById("countdown").innerHTML = "RIP :(";
   }
 }, 1000);
 </script>
