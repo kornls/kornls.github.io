@@ -17,6 +17,11 @@
 </center>
 
 <script>
-  var results = Math.floor(Math.random() * 10000000) + 1
+  function commas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+  
+  var rawres = Math.floor(Math.random() * 10000000) + 1
+  var results = commas(rawres)
   document.getElementById("output").innerHTML = "There are " + results + " results, but were are too lazy to show them. Deal with it."
 </script>
