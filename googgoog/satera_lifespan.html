@@ -1,5 +1,7 @@
 <style> @font-face { font-family: font; src: url("https://kornls.github.io/comic_sans.TTF"); } * { font-family: font; } </style>
 
+<center>
+
 <h1>Satera's Lifespan Countdown</h1>
 
 <!-- Display the countdown timer in an element -->
@@ -7,7 +9,7 @@
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 7, 2040 00:00:00").getTime();
+var countDownDate = new Date("Feb 24, 2040 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -27,7 +29,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("countdown").innerHTML = years + " Years " + months + "Months" + days + " Days " + hours + " Hours "
+  document.getElementById("countdown").innerHTML = years + " Years " + months + " Months " + days + " Days " + hours + " Hours "
   + minutes + " Minutes " + seconds + " Seconds ";
 
   // If the count down is finished, write some text 
@@ -39,3 +41,5 @@ var x = setInterval(function() {
 </script>
 
 <a href="https://kornls.github.io/googgoog">Go back to GoogGoog</a>
+
+</center>
