@@ -13,10 +13,12 @@
   
   <script type="text/javascript">
     document.getElementById("search").onclick = function () {
-      if (document.getElementById("query").value == "chimic") {
+      if (toLowerCase(document.getElementById("query").value).includes("chimic")) {
         location.href = "https://kornls.github.io/googgoog/chimic.html";
-      } else if (document.getElementById("query").value == "Satera Countdown") {
+      } else if (toLowerCase(document.getElementById("query").value).includes("satera countdown")) {
         location.href = "https://kornls.github.io/googgoog/satera_lifespan.html";
+      } else if (toLowerCase(document.getElementById("query").value).includes("satera")) {
+        location.href = "https://kornls.github.io/googgoog/satera_yt.html";
       } else {
         location.href = "https://kornls.github.io/googgoog/search.html";
       }
@@ -25,6 +27,6 @@
 
   <br>
 
-  <p>Version 0..0 - By Larry Studios<br>Disclaimer : This website is a joke</p>
+  <p>Version 0.8.0 - By Larry Studios<br>Disclaimer : This website is a joke</p>
 
 </center>
