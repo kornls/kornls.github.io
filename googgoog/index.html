@@ -13,16 +13,16 @@
   
   <script type="text/javascript">
     document.getElementById("search").onclick = function () {
-      if (toLowerCase(document.getElementById("query").value).includes("chimic")) {
+      if (document.getElementById("query").value.toLowerCase().includes("chimic")) {
         location.href = "https://kornls.github.io/googgoog/chimic.html";
-      } else if (toLowerCase(document.getElementById("query").value).includes("satera countdown")) {
+      } else if (document.getElementById("query").value.toLowerCase().includes("satera countdown")) {
         location.href = "https://kornls.github.io/googgoog/satera_lifespan.html";
-      } else if (toLowerCase(document.getElementById("query").value).includes("satera")) {
+      } else if (document.getElementById("query").value.toLowerCase().includes("satera")) {
         location.href = "https://youtube.com/satera1";
       } else {
         location.href = "https://kornls.github.io/googgoog/search.html";
       }
-    }
+    };
   </script>
 
   <br>
