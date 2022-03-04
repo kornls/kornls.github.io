@@ -1,0 +1,25 @@
+@font-face { font-family: font; src: url("https://kornls.github.io/comic_sans.TTF"); } * { font-family: font; }
+
+a:link {
+  color: blue; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
