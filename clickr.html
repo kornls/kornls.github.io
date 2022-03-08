@@ -1,0 +1,33 @@
+<style>
+  body { 
+    background-color: powderblue; 
+    font-size: 30px;
+    text-align: center;
+  }
+  #button {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 100px;
+    margin: 0 auto;
+    line-height: 200px;
+    user-select: none;
+    margin-top: 100px;
+  }
+  #score {
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    color: green;
+  }
+</style>
+<div id="score">0</div>
+<div id="button">CLICK ME</div>
+<script>
+  let counter = 0;
+  
+  document.getElementById('button').onclick = () => {
+    counter = counter + 1;
+    document.getElementById('score').innerText = counter;
+  };
+</script>
