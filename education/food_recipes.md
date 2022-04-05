@@ -1,7 +1,7 @@
 # Useful Recipes that you can make at home
 
 ### 1. Kraken Stew
-:octopus: + :fire: + :plate_with_cutlery: = :stew:
+🐙 + 🔥 + 🍽️ = 🍲
 
 <br>
 
@@ -17,7 +17,7 @@ You will need : A Kraken
 <br>
 
 ### 2. Cat Stew
-:cat: + :fire: + :plate_with_cutlery: = :stew:
+🐱 + 🔥 + 🍽️ = 🍲
 
 <br>
 
