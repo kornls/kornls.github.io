@@ -48,7 +48,7 @@ You will need : A Dog
 
 <br>
 
-### 3. Monke Stew
+### 4. Monke Stew
 🐒 + 🔥 + 🍽️ = 🍲
 
 <br>
