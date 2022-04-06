@@ -46,3 +46,19 @@ You will need : A Dog
 2. Cook your dog at medium heat
 3. Serve, and enjoy!
 
+<br>
+
+### 3. Monke Stew
+🐒 + 🔥 + 🍽️ = 🍲
+
+<br>
+
+You will need : A Monke
+
+<br>
+
+**Instructions :**
+1. Buy a monke from your local pet store, if you don't already have one
+2. Cook your monke at medium heat
+3. Serve, and enjoy!
+
